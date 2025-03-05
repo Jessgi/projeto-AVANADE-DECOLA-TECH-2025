@@ -3,7 +3,11 @@ JAVA RESTful API criada para o Decola Tech 2025
 
 ## Diagrama de classes
 
-´´´mermaid
+# Diagrama de Classes - Usuário do Banco
+
+Este diagrama representa a estrutura de classes baseada no JSON de um usuário do banco.
+
+```mermaid
 classDiagram
     class Usuario {
         +string name
@@ -35,4 +39,5 @@ classDiagram
     Usuario --> Feature : possui *
     Usuario --> Cartao : possui
     Usuario --> Noticias : possui
-´´´ 
+
+```
